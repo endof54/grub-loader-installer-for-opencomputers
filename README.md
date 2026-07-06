@@ -6,37 +6,34 @@
 
 ## 🇺🇦 Українська
 
-Всім привіт! Написав простий і красивий завантажувач (Bootloader) для ПК в OpenComputers. Дуже хотілося зробити щось схоже на класичний Linux GRUB, щоб при старті комп'ютера можна було зручно обирати, звідки запускати систему, просто клацаючи стрілочками на клавіатурі.
+Завантажувач (Bootloader) для ПК у модифікації **OpenComputers**, стилізований під класичний Linux GRUB. Дозволяє обирати джерело завантаження системи за допомогою стрілочок на клавіатурі.
 
-### Що він вміє:
-* 💾 **Boot from HDD (init.lua)** — запускає вашу основну систему з жорсткого диска.
-* 💿 **Boot from Floppy** — завантажується з дискети (якщо треба запустити щось інше).
-* 🔄 **Reboot Computer** — звичайне швидке перезавантаження комп'ютера.
-* 🔌 **Power OFF** — повністю вимикає живлення ПК.
-* ⌨️ **Керування** — гортаємо стрілочками `[↑ / ↓]`, запускаємо через `[ENTER]`.
+### Можливості
+* 💾 **Boot from HDD (init.lua)** — запуск ОС з жорсткого диска.
+* 💿 **Boot from Floppy** — завантаження з дискети.
+* 🔄 **Reboot Computer** — перезавантаження ПК.
+* 🔌 **Power OFF** — вимкнення комп'ютера.
+* ⌨️ **Керування** — вибір стрілочками `[↑ / ↓]`, підтвердження через `[ENTER]`.
 
-### Як цим користуватися:
-1. Закидаєте файл `init.lua` з цього репозиторію на свою **дискету (Floppy Disk)**.
-2. Вставляєте її у комп'ютер (краще брати монітор і залізо Tier 3, щоб текст рендерився красиво).
-3. Запускаєте інсталятор. Як тільки він закінчить копіювати файли, **комп'ютер сам автоматично перезавантажиться** і перед вами з'явиться готове меню GRUB.
+### Встановлення
+1. Записати файл `init.lua` на **дискету (Floppy Disk)**.
+2. Вставити її в комп'ютер OpenComputers (рекомендовано Tier 3).
+3. Запустити встановлення. Після копіювання файлів **ПК автоматично перезавантажиться** і відкриє меню GRUB.
 
 ---
 
 ## 🇬🇧 English
 
-Hey everyone! I made a simple and clean bootloader for personal computers in OpenComputers. I wanted to replicate the classic Linux GRUB vibe, allowing you to easily choose your boot source using the keyboard arrow keys right at startup.
+A bootloader for personal computers in the **OpenComputers** mod, styled after the classic Linux GRUB. It allows choosing the boot source using the keyboard arrow keys.
 
-### Features:
-* 💾 **Boot from HDD (init.lua)** — boots your main OS from the Hard Disk Drive.
-* 💿 **Boot from Floppy** — boots from a floppy disk if you need to run something else.
-* 🔄 **Reboot Computer** — quick and standard PC reboot.
-* 🔌 **Power OFF** — completely shuts down the computer.
+### Features
+* 💾 **Boot from HDD (init.lua)** — boots the OS from the Hard Disk Drive.
+* 💿 **Boot from Floppy** — boots from a floppy disk.
+* 🔄 **Reboot Computer** — restarts the PC.
+* 🔌 **Power OFF** — shuts down the computer.
 * ⌨️ **Controls** — navigate with `[↑ / ↓]` arrows, select with `[ENTER]`.
 
-### How to use it:
-1. Copy the `init.lua` file from this repository to your **Floppy Disk**.
-2. Insert the floppy into your OpenComputers PC (Tier 3 hardware is highly recommended for clean text rendering).
-3. Run the installer. Once it's done copying files, **the PC will automatically reboot** itself and bring up the GRUB menu.
-
----
-*Створено просто для душі та красивого старту комп'ютера. Надіюсь, комусь стане в пригоді!*
+### Setup
+1. Write the `init.lua` file to a **Floppy Disk**.
+2. Insert it into your OpenComputers PC (Tier 3 hardware recommended).
+3. Run the installer. Once files are copied, **the PC will automatically reboot** into the GRUB menu.
