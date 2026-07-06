@@ -1,5 +1,4 @@
--- УНІВЕРСАЛЬНИЙ GRUB ДЛЯ HDD ТА FLOPPY (init.lua НА ДИСКЕТУ)
-local inv = component.invoke
+-- UNIVERSAL GRUB FOR HDD AND FLOPPY (init.lua on floppy)
 local eeprom = component.list("eeprom")()
 
 local grub_code = [[
