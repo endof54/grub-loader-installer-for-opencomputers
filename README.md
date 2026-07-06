@@ -4,39 +4,39 @@
 
 ---
 
-## 🇺🇦 Українська версія
+## 🇺🇦 Українська
 
-Простий та красивий завантажувач (Bootloader) для персональних комп'ютерів у модифікації **OpenComputers** у Minecraft, натхненний класичним Linux GRUB. Дозволяє зручно обирати джерело завантаження системи за допомогою стрілочок на клавіатурі.
+Всім привіт! Написав простий і красивий завантажувач (Bootloader) для ПК в OpenComputers. Дуже хотілося зробити щось схоже на класичний Linux GRUB, щоб при старті комп'ютера можна було зручно обирати, звідки запускати систему, просто клацаючи стрілочками на клавіатурі.
 
-### 🚀 Функціонал
-* 💾 **Boot from HDD (init.lua)** — запуск основної системи з жорсткого диска ПК.
-* 💿 **Boot from Floppy** — завантаження з дискети (Floppy Disk).
-* 🔄 **Reboot Computer** — швидке перезавантаження комп'ютера.
-* 🔌 **Power OFF** — повне вимкнення живлення ПК.
-* ⌨️ **Зручне керування** — вибір за допомогою стрілочок `[↑ / ↓]` та запуск через `[ENTER]`.
+### Що він вміє:
+* 💾 **Boot from HDD (init.lua)** — запускає вашу основну систему з жорсткого диска.
+* 💿 **Boot from Floppy** — завантажується з дискети (якщо треба запустити щось інше).
+* 🔄 **Reboot Computer** — звичайне швидке перезавантаження комп'ютера.
+* 🔌 **Power OFF** — повністю вимикає живлення ПК.
+* ⌨️ **Керування** — гортаємо стрілочками `[↑ / ↓]`, запускаємо через `[ENTER]`.
 
-### 📦 Встановлення та запуск
-1. Запишіть файл `init.lua` з цього репозиторію на вашу **дискету (Floppy Disk)**.
-2. Вставте дискету у ваш комп'ютер OpenComputers (рекомендовано Tier 3).
-3. Запустіть інсталятор. Після завершення копіювання файлів **комп'ютер автоматично перезавантажиться** та відкриє меню GRUB.
+### Як цим користуватися:
+1. Закидаєте файл `init.lua` з цього репозиторію на свою **дискету (Floppy Disk)**.
+2. Вставляєте її у комп'ютер (краще брати монітор і залізо Tier 3, щоб текст рендерився красиво).
+3. Запускаєте інсталятор. Як тільки він закінчить копіювати файли, **комп'ютер сам автоматично перезавантажиться** і перед вами з'явиться готове меню GRUB.
 
 ---
 
-## 🇬🇧 English Version
+## 🇬🇧 English
 
-A simple and beautiful bootloader for personal computers in the **OpenComputers** Minecraft mod, inspired by the classic Linux GRUB. It allows you to easily choose your boot source using the keyboard arrow keys.
+Hey everyone! I made a simple and clean bootloader for personal computers in OpenComputers. I wanted to replicate the classic Linux GRUB vibe, allowing you to easily choose your boot source using the keyboard arrow keys right at startup.
 
-### 🚀 Features
-* 💾 **Boot from HDD (init.lua)** — boots the main operating system from the PC's Hard Disk Drive.
-* 💿 **Boot from Floppy** — boots from a Floppy Disk.
-* 🔄 **Reboot Computer** — quick reboot of the PC.
+### Features:
+* 💾 **Boot from HDD (init.lua)** — boots your main OS from the Hard Disk Drive.
+* 💿 **Boot from Floppy** — boots from a floppy disk if you need to run something else.
+* 🔄 **Reboot Computer** — quick and standard PC reboot.
 * 🔌 **Power OFF** — completely shuts down the computer.
-* ⌨️ **Easy Controls** — navigation via `[↑ / ↓]` arrows, selection via `[ENTER]`.
+* ⌨️ **Controls** — navigate with `[↑ / ↓]` arrows, select with `[ENTER]`.
 
-### 📦 Installation & Setup
-1. Write the `init.lua` file from this repository to your **Floppy Disk**.
-2. Insert the floppy disk into your OpenComputers PC (Tier 3 recommended).
-3. Run the installer. Once the files are copied, **the PC will automatically reboot** and open the GRUB menu.
+### How to use it:
+1. Copy the `init.lua` file from this repository to your **Floppy Disk**.
+2. Insert the floppy into your OpenComputers PC (Tier 3 hardware is highly recommended for clean text rendering).
+3. Run the installer. Once it's done copying files, **the PC will automatically reboot** itself and bring up the GRUB menu.
 
 ---
-*Created for tech automation and stylish PC booting.*
+*Створено просто для душі та красивого старту комп'ютера. Надіюсь, комусь стане в пригоді!*
